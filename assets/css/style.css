@@ -38,7 +38,7 @@
     font-family: var(--breadtext);
     padding-left: 4px;
     padding-right: 4px;
-    color: var(--grey);
+    color: black;
 }
 
 h4 {
@@ -46,9 +46,12 @@ h4 {
     font-size: 100%;
     padding-top: 15px;
     padding-left: 6px;
-    color: var(--grey);
+    color: black;
 }
 
+.darkgreen {
+    background-color: #464646;
+}
 
 /* Header */
 header { 
@@ -171,13 +174,13 @@ footer {
 }
 
 #resorts {
-    background: url("../images/resorts.png") no-repeat center center/cover;
+    background: url("../images/IMG_9687.jpg") no-repeat center center/cover;
     min-height: 300px;
     order: 1;
 }
 
 #pisted-slopes {
-    background: url("../images/pisted-slope.jpg") no-repeat center center/cover;
+    background: url("../images/IMG_9745.jpg") no-repeat center center/cover;
     min-height: 300px;
 }
 
