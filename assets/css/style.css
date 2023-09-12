@@ -55,8 +55,8 @@ h4 {
 
 /* Header */
 header { 
-    background: var(--grey);
-    position: sticky;
+    background: white;
+    /* position: sticky; */
     top: 0;
     left: 0;
     width: 100%;
@@ -84,7 +84,7 @@ header {
 header .logo {
     position: relative;
     font-size: 1.5em;
-    color: var(--white);
+    /* color: var(--white); */
     text-decoration: none;
     font-weight: 600;
     font-family: var(--logotyp);
@@ -92,6 +92,10 @@ header .logo {
 }
 .sm-logo {
     color: var(--grey);
+}
+
+.logo {
+    color: #000000;
 }
 
 
@@ -104,16 +108,23 @@ header .navigation {
     font-family: var(--title);
 }
 
+header {
+    color: var(--white);
+}
+
 header .navigation li {
     list-style: none;
     margin: 0 10px;
 }
 
 header .navigation li a {
-    color: var(--white);
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+.navigation li a {
+    color: #000000;
 }
 
 header .navigation li a:hover {
@@ -156,10 +167,10 @@ footer {
 }
 
 
-/* Bar between hero image and first section */
+/* Bar between hero image and first section #4A3C39 */
 .bar {
-    background: var(--grey);
-    color: var(--white);
+    background: #4A3C39;
+    color: #DDC68B;
     font-family: var(--title);
 }
 
