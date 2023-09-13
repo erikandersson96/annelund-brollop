@@ -42,34 +42,35 @@
             <!-- About Section-->
             <div class="section" id="about">
                 <section class="h3+p">
-                    <h3 class="section-title section-title-center">Festlokalen</h3>
+                    <h3 class="section-title section-title-center">Festlokalen.</h3>
                     <div>
                         <p class="center brod-text">
                             Festlokalen är en dold skatt på denna gamla gård, många olika typer av minnen har skapats här. 
                             Belägen i en charmig lada, omgiven av den grönskande landsbygden, bär den på en unik atmosfär som inte går att återskapa. 
                         </p>
                     </div>
+                    <!-- Call to action button, SUBMIT -->
+                    <div class="button">
+                        <button type="button" id="button-gallery" onclick="location.href ='gallery.html'">Läs mer</button>
+                    </div>
                 </section>
-                <div id="ski-lifts"></div>
+                <div id="pisted-slopes"></div>
             </div>
         
-            <!-- Destinations section -->
+            <!-- What we offer section -->
             
             <div class="section" id="destinations">
                 <div id="resorts"></div>
                 <section class="h3+p">
-                    <h3 class="section-title">Vad vi erbjuder.</h3>
-                    <h4>1. En lantlig lada 1 mil från Karlstad centrum:</h4>
-                    <p>Denna lada ligger strax utanför Karlstad centrum.</p>
-                    <br>
-                    <h4>2. Stort kök:</h4>
-                    <p>Vi erbjuder er som hyr denna stora festlokal tillgången till ett stort kök med möjlighet att servera många gäster mat.</p>
-                    <br>
-                    <h4>3. Två fina toaletter:</h4>
-                    <p>Inte bara en utan två toaletter har vi att erbjuda.</p>
-                    <br>
+                    <h3 class="section-title section-title-center">Vad vi erbjuder.</h3>
+                    <div class="center brod-text">
+                        <p>
+                            Festlokalen är en dold skatt på denna gamla gård, många olika typer av minnen har skapats här. 
+                            Belägen i en charmig lada, omgiven av den grönskande landsbygden, bär den på en unik atmosfär som inte går att återskapa.
+                        </p>
+                    </div>
                     <div class="button">
-                    <button type="button" id="button-gallery" onclick="location.href ='gallery.html'">Fler bekvämligheter</button>
+                    <button type="button" id="button-gallery" onclick="location.href ='gallery.html'">Läs mer</button>
                     </div>
                 </section>
             </div>
@@ -77,32 +78,34 @@
             <!-- Contact Section-->
             <div class="section" id="contact">
                 <section class="h3+p">
-                    <h3 class="section-title">Kontakt</h3>
+                    <h3 class="section-title">Kontakt.</h3>
                     <!-- Contact form -->
-                    <form id="contact-form">
+                    <div class="center brod-text">
+                        <form id="contact-form">
+                    
+                            <label for="fname">First Name: *</label>
+                            <input type="text" id="fname" name="fname" placeholder="First Name.." required>
                     
                     
-                        <label for="fname">First Name: *</label>
-                        <input type="text" id="fname" name="fname" placeholder="First Name.." required>
+                            <label for="lname">Last Name: *</label>
+                            <input type="text" id="lname" name="lname" placeholder="Last Name.." required>
                     
                     
-                        <label for="lname">Last Name: *</label>
-                        <input type="text" id="lname" name="lname" placeholder="Last Name.." required>
+                            <label for="email">Your Email: *</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email.." required>
                     
                     
-                        <label for="email">Your Email: *</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email.." required>
+                            <label for="brand">Your Question: *</label>
+                            <input type="text" id="brand" name="brand" placeholder="Your Question.." required>
                     
-                    
-                        <label for="brand">Your Question: *</label>
-                        <input type="text" id="brand" name="brand" placeholder="Your Question.." required>
-                    
+                        </form>
+                    </div>
                         <!-- Call to action button, SUBMIT -->
-                        <button id="button-submit" type="submit">Skicka</button>
-                    
-                    </form>
+                        <div class="button">
+                            <button type="button" id="button-gallery" onclick="location.href ='gallery.html'">Ta kontakt</button>
+                        </div>
                 </section>
-                <div id="pisted-slopes"></div>
+                <div id="ski-lifts"></div>
             </div>
         </div>
     </main>
