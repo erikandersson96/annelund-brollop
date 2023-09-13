@@ -35,6 +35,15 @@
     font-weight: bolder;
 }
 
+.section-title-festlokal {
+    text-align: center;
+    color: #000000;
+    font-family: var(--title);
+    font-size: 50px;
+    padding-top: 110px;
+    font-weight: bolder;
+}
+
 .section p {
     font-family: var(--breadtext);
     color: #000000;
@@ -175,8 +184,8 @@ header .navigation li a:hover {
 /* First Footer */
 .first-footer {
     background-color: #300E14;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* Second Footer */
@@ -210,7 +219,7 @@ header .navigation li a:hover {
     color: #ffffff;
 }
 
-#center {
+.logo-footer {
     margin: auto;
     width: 60%;
     padding: 10px;
