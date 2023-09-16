@@ -17,90 +17,120 @@
 
 <body>
     <!-- Header and navigation -->
-    <header class="only-logo">
+    <header> 
         <!-- Header logo -->
-        <a href="index.html" class="logo"> <span class="sm-logo">Annelunds Gård</a>
+        <a href="index.html" class="logo">Annelunds Bröllop</a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="festlokal.html">Bröllops lokal</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="gallery.html" id="gallery-nav">Foto arkiv</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main Content-->
     <main>
-        <section>
-            <div class="bar" id="bar-gallery">
+        <section class="gallery-background">
+            <!-- <div class="bar" id="bar-gallery">
                 <h2>Foto arkiv</h2>
-            </div>
+            </div> -->
             <ul id="gallery">
                 <li>
-                    <img src="assets/images/image-001.jpg" alt="Mountain Church">
+                    <img src="assets/images/IMG_0116.jpg" alt="Mountain Church">
                 </li>
                 <li>
-                    <img src="assets/images/image-002.jpg" alt="Mountain in the dusk">
+                    <img src="assets/images/hero_image.jpg" alt="Mountain in the dusk">
                 </li>
                 <li>
-                    <img src="assets/images/image-003.jpg" alt="Skier going down slope">
+                    <img src="assets/images/IMG_0082.jpg" alt="Skier going down slope">
                 </li>
                 <li>
-                    <img src="assets/images/image-004.jpg" alt="Skier in the woods">
+                    <img src="assets/images/IMG_9687.jpg" alt="Skier in the woods">
                 </li>
                 <li>
-                    <img src="assets/images/image-005.jpg" alt="Ski-village at night">
+                    <img src="assets/images/IMG_9745.jpg" alt="Ski-village at night">
                 </li>
                 <li>
-                    <img src="assets/images/image-006.jpg" alt="Skier jumping and doing tricks">
+                    <img src="assets/images/IMG_9729.jpg" alt="Skier jumping and doing tricks">
                 </li>
                 <li>
-                    <img src="assets/images/image-007.jpg" alt="Person crosscountry skiing">
+                    <img src="assets/images/hero_image.jpg" alt="Person crosscountry skiing">
                 </li>
                 <li>
-                    <img src="assets/images/image-008.jpg" alt="Mountain range in daylight">
+                    <img src="assets/images/IMG_0082.jpg" alt="Mountain range in daylight">
                 </li>
                 <li>
-                    <img src="assets/images/image-009.jpg" alt="Skier gooing downslope">
+                    <img src="assets/images/IMG_9745.jpg" alt="Skier gooing downslope">
                 </li>
                 <li>
-                    <img src="assets/images/image-010.jpg" alt="Snowboarder resting">
+                    <img src="assets/images/IMG_9687.jpg" alt="Snowboarder resting">
                 </li>
                 <li>
-                    <img src="assets/images/image-011.jpg" alt="Mountains in daylight">
+                    <img src="assets/images/IMG_9745.jpg" alt="Mountains in daylight">
                 </li>
                 <li>
-                    <img src="assets/images/image-012.jpg" alt="A busy ski-slope">
+                    <img src="assets/images/IMG_9745.jpg" alt="A busy ski-slope">
                 </li>
                 <li>
-                    <img src="assets/images/image-013.jpg" alt="Skilifts">
+                    <img src="assets/images/IMG_0116.jpg" alt="Skilifts">
                 </li>
                 <li>
-                    <img src="assets/images/image-014.jpg" alt="Skilifts">
-                </li>
-                <li>
-                    <img src="assets/images/image-015.jpg" alt="Snowy road at sundown">
-                </li>
-                <li>
-                    <img src="assets/images/image-016.jpg" alt="Snowy landscape under the starlight">
+                    <img src="assets/images/hero_image.jpg" alt="Skilifts">
                 </li>
             </ul>
         </section>
     </main>
-
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><strong><i class="fa-solid fas fa-arrow-up"></i></strong></button>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
     <!-- Footer-->
     <footer>
-        <!-- Social media widgets-->
-        <ul class="footer">
-            <li>
-                <!-- Instagram -->
-                <a href="http://www.Instagram.com" target="_blank" rel="noopener"><i
-                        class="fa-brands fa-instagram"></i><span class="invisble">Instagram</span></a>
-            </li>
-            <li>
-                <!-- Facebook -->
-                <a href="http://www.Facebook.com" target="_blank" rel="noopener"><i
-                        class="fa-brands fa-square-facebook"></i><span class="invisble">Facebook</span></a>
-            </li>
-            <li>
-                <!-- Twitter -->
-                <a href="http://www.Twitter.com" target="_blank" rel="noopener"><i
-                        class="fa-brands fa-x-twitter"></i><span class="invisble">Twitter</span></a>
-            </li>
-        </ul>
+        <!-- First footer -->
+        <div class="first-footer"></div>
+        <!-- Second footer -->
+        <div class="second-footer">
+            <h3 class="logo-footer">Annelunds Bröllop</h3>
+        </div>
+        <!-- Third footer -->
+        <div class="third-footer">
+            <!-- Social media widgets -->
+            <ul class="footer">
+                <li>
+                    <!-- Instagram -->
+                    <a href="http://www.Instagram.com" target="_blank" rel="noopener" aria-label="Go to our Instagram page(in new tab)"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <!-- Facebook -->
+                    <a href="http://www.Facebook.com" target="_blank" rel="noopener" aria-label="Go to our Facebook page(in new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <!-- Twitter -->
+                    <a href="http://www.Twitter.com" target="_blank" rel="noopener" aria-label="Go to our Twitter page(in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
     </footer>
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/e604f35fb9.js" crossorigin="anonymous"></script>

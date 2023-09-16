@@ -20,9 +20,10 @@
         <!-- Header and navigation -->
     <header> 
         <!-- Header logo -->
-        <a href="index.html" class="logo">Annelunds Gård</a>
+        <a href="index.html" class="logo">Annelunds Bröllop</a>
         <nav>
-            <ul class="navigation"> 
+            <ul class="navigation">
+                <li><a href="index.html">Startsida</a></li>
                 <li><a href="festlokal.html">Bröllops lokal</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
                 <li><a href="gallery.html" id="gallery-nav">Foto arkiv</a></li>
@@ -55,14 +56,36 @@
             </div>
         </div>
     </main>
-
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><strong><i class="fa-solid fas fa-arrow-up"></i></strong></button>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
     <!-- Footer-->
     <footer>
         <!-- First footer -->
         <div class="first-footer"></div>
         <!-- Second footer -->
         <div class="second-footer">
-            <h3 class="logo-footer">Annelunds Gård</h3>
+            <h3 class="logo-footer">Annelunds Bröllop</h3>
         </div>
         <!-- Third footer -->
         <div class="third-footer">
