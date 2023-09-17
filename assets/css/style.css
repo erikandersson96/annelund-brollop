@@ -324,6 +324,11 @@ header .navigation li a:hover {
     background: var(--grey);
 }
 
+.contact-form {
+    padding-top: 15px;
+    width: 100%;
+}
+
 /* Back to top button */
 
 #myBtn {
@@ -349,10 +354,39 @@ header .navigation li a:hover {
 
 
 /* Media queries for responsivnes */
+
+@media (max-width: 1150px) {
+    .h-captcha {
+        transform:scale(0.67);
+        transform-origin:0 0;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 820px) {
+    .h-captcha {
+        transform:scale(0.67);
+        transform-origin:0 0;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 780px) {
+    .h-captcha {
+        transform:scale(0.67);
+        transform-origin:0 0;
+        padding-top: 10px;
+    }
+}
+
 @media (max-width: 750px) {
     header{
         padding: 10px 20px;
         flex-direction: column;
+    }
+
+    .two-skiers {
+        min-height: 550px;
     }
 }
 
@@ -390,6 +424,14 @@ header .navigation li a:hover {
 
 }
 
+@media (max-width: 570px) {
+    .h-captcha {
+        transform:scale(0.67);
+        transform-origin:0 0;
+        padding-top: 10px;
+    }
+}
+
 @media (max-width: 530px) {
     .logo-footer {
         font-size: 150%;
@@ -407,6 +449,14 @@ header .navigation li a:hover {
         font-weight: 400;
         font-family: var(--logotyp);
         font-size: 200%;
+    }
+}
+
+@media (max-width: 390px) {
+    .h-captcha {
+        transform:scale(0.60);
+        transform-origin:0 0;
+        padding-top: 10px;
     }
 }
 
