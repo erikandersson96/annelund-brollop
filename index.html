@@ -8,7 +8,7 @@
         <meta name="description" content="En hemsida för att bevittna den vackra festlokalen
             som Annelunds gård har att erbjuda för uthyrning till bröllop.">
         <!-- Title-->
-        <title>Annelunds bröllop</title>
+        <title>Annelunds Festlokal - Startsida</title>
 
         <!-- Favicon-->
 
@@ -20,11 +20,11 @@
         <!-- Header and navigation -->
     <header> 
         <!-- Header logo -->
-        <a href="index.html" class="logo">Annelunds Bröllop</a>
+        <a href="index.html" class="logo">Annelunds Festlokal</a>
         <nav>
             <ul class="navigation">
                 <li><a href="index.html">Startsida</a></li>
-                <li><a href="festlokal.html">Bröllops lokal</a></li>
+                <li><a href="festlokal.html">Festlokal</a></li>
                 <li><a href=#contact>Kontakt</a></li>
                 <li><a href="gallery.html" id="gallery-nav">Foto arkiv</a></li>
             </ul>
@@ -74,6 +74,7 @@
                     <button type="button" id="button-gallery" onclick="location.href ='gallery.html'">Läs mer</button>
                     </div>
                 </section>
+                <div class="resorts"></div>
             </div>
 
             <!-- Contact Section-->
@@ -82,22 +83,22 @@
                     <h3 class="section-title">Kontakt.</h3>
                     <!-- Contact form -->
                     <div class="center brod-text">
-                        <form id="contact-form">
+                        <form action="mailto:lilleman96@gmail.com" id="contact-form" method="post" enctype="text/plain">
                     
-                            <label for="fname">First Name: *</label>
-                            <input type="text" id="fname" name="fname" placeholder="First Name.." required>
-                    
-                    
-                            <label for="lname">Last Name: *</label>
-                            <input type="text" id="lname" name="lname" placeholder="Last Name.." required>
+                            <label for="fname">Förnamn: (Obligatorisk)</label>
+                            <input type="text" id="fname" name="fname" placeholder="Förnamn.." required>
                     
                     
-                            <label for="email">Your Email: *</label>
-                            <input type="email" id="email" name="email" placeholder="Your Email.." required>
+                            <label for="lname">Efternamn: (Obligatorisk)</label>
+                            <input type="text" id="lname" name="lname" placeholder="Efternamn.." required>
                     
                     
-                            <label for="brand">Your Question: *</label>
-                            <input type="text" id="brand" name="brand" placeholder="Your Question.." required>
+                            <label for="email">Mailadress: (Obligatorisk)</label>
+                            <input type="email" id="email" name="email" placeholder="Mailadress.." required>
+                    
+                    
+                            <label for="brand">Meddelande: </label>
+                            <input type="text" id="brand" name="brand" placeholder="Meddelande..">
                     
                         </form>
                     </div>
@@ -110,7 +111,7 @@
             </div>
         </div>
     </main>
-    <!-- Back to top button -->
+    <!--Back to top button-->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><strong><i class="fa-solid fas fa-arrow-up"></i></strong></button>
     <script>
         // Get the button
@@ -139,7 +140,11 @@
         <div class="first-footer"></div>
         <!-- Second footer -->
         <div class="second-footer">
-            <h3 class="logo-footer">Annelunds Bröllop</h3>
+            <h3 class="logo-footer">Annelunds Festlokal</h3>
+            <br>
+            <div class="center-boka">
+                <p>Boka på: 070-884 84 88</p>
+            </div>
         </div>
         <!-- Third footer -->
         <div class="third-footer">
@@ -149,14 +154,13 @@
                     <!-- Instagram -->
                     <a href="http://www.Instagram.com" target="_blank" rel="noopener" aria-label="Go to our Instagram page(in new tab)"><i class="fa-brands fa-instagram"></i></a>
                 </li>
-                <li>
-                    <!-- Facebook -->
+                <!-- <li>
+                    Facebook
                     <a href="http://www.Facebook.com" target="_blank" rel="noopener" aria-label="Go to our Facebook page(in new tab)"><i class="fa-brands fa-square-facebook"></i></a>
-                </li>
-                <li>
-                    <!-- Twitter -->
+                </li> -->
+                <!-- <li>
                     <a href="http://www.Twitter.com" target="_blank" rel="noopener" aria-label="Go to our Twitter page(in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </footer>

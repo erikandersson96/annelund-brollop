@@ -67,6 +67,11 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 
+.center-boka {
+    text-align: center;
+    color: #AA8C64;
+}
+
 .brod-text {
     font-size: 23px;
     font-weight: 100;
@@ -357,15 +362,8 @@ header .navigation li a:hover {
         flex-direction: row;
         justify-content: center;
     }
-}
 
-@media (max-width: 530px) {
-    .logo-footer {
-        font-size: 150%;
-    }
-
-
-/* Images in the sections */
+    /* Images in the sections */
     #ski-lifts {
         min-width: 50%;
     }
@@ -388,6 +386,13 @@ header .navigation li a:hover {
 /* gallery.html */
     #gallery li {
         min-height: 200px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    .logo-footer {
+        font-size: 150%;
     }
 
 }    
