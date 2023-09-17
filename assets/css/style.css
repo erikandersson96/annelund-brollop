@@ -329,6 +329,10 @@ header .navigation li a:hover {
     width: 100%;
 }
 
+.h-captcha {
+    padding-top: 10px;
+}
+
 /* Back to top button */
 
 #myBtn {
