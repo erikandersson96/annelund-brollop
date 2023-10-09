@@ -377,6 +377,10 @@ header .navigation li a:hover {
     color: #000000;
   }
 
+.gold {
+    color: #AA8C64;
+}
+
 
 /* Media queries for responsivnes */
 
