@@ -37,7 +37,7 @@
             <!-- About Section-->
             <div>
                 <section>
-                    <h2 class="section-title-festlokal">Skicka Förfrågan</h2>
+                    <div class="button contact-form-button-2"></div>
                         <div class="center-2 brod-text">
                             <!-- <form  action="https://api.web3forms.com/submit" method="POST" id="contact-form">
     
@@ -54,15 +54,18 @@
                                 <script src="https://web3forms.com/client/script.js" async defer></script>
                         
                             </form> -->
+                            <h2 class="section-title-festlokal">Skicka Förfrågan</h2>
                             <form  action="https://api.web3forms.com/submit" method="POST" id="contact-form">
 
                                 <input type="hidden" name="access_key" value="435fef12-fbdf-459d-912f-f3e1f68fbe62">      
                                 
-                                <input name="name" type="text" class="feedback-input" placeholder="Namn" required/>   
+                                <input name="Namn" type="text" class="feedback-input" placeholder="Namn" required/>   
                                 
-                                <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
+                                <input name="Mailadress" type="text" class="feedback-input" placeholder="Email" required/>
+
+                                <input name="Mobilnummer" type="number" class="feedback-input" placeholder="Mobilnummer" required/>
                                 
-                                <textarea name="text" class="feedback-input" placeholder="Meddelande"></textarea>
+                                <textarea name="Meddelande" class="feedback-input" placeholder="Meddelande"></textarea>
                                 
                                 <span class="h-captcha" data-captcha="true"></span>
 
@@ -119,7 +122,7 @@
             <ul class="footer">
                 <li>
                     <!-- Instagram -->
-                    <a href="https://instagram.com/annelundsfestlokal?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener" aria-label="Go to our Instagram page(in new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://instagram.com/annelundsfestlokal?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener" aria-label="Gå till vår Instagram (i en ny tab)"><i class="fa-brands fa-instagram"></i></a>
                 </li>
                 <!-- <li>
                     Facebook
@@ -128,6 +131,11 @@
                 <!-- <li>
                     <a href="http://www.Twitter.com" target="_blank" rel="noopener" aria-label="Go to our Twitter page(in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
                 </li> -->
+            </ul>
+            <ul class="footer">
+                <li>
+                    <a href="policy.html" aria-label="Läs vår integritetspolicy" style="text-decoration: none; font-size: small;">Integritetspolicy</a>
+                </li>
             </ul>
         </div>
     </footer>
