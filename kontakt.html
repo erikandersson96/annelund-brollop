@@ -39,7 +39,7 @@
                 <section>
                     <h2 class="section-title-festlokal">Boka festlokalen</h2>
                         <div class="center-2 brod-text">
-                            <form  action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+                            <!-- <form  action="https://api.web3forms.com/submit" method="POST" id="contact-form">
     
                                 <input type="hidden" name="access_key" value="435fef12-fbdf-459d-912f-f3e1f68fbe62">
                         
@@ -53,12 +53,27 @@
     
                                 <script src="https://web3forms.com/client/script.js" async defer></script>
                         
+                            </form> -->
+                            <form  action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+
+                                <input type="hidden" name="access_key" value="435fef12-fbdf-459d-912f-f3e1f68fbe62">      
+                                
+                                <input name="name" type="text" class="feedback-input" placeholder="Namn" required/>   
+                                
+                                <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
+                                
+                                <textarea name="text" class="feedback-input" placeholder="Meddelande"></textarea>
+                                
+                                <span class="h-captcha" data-captcha="true"></span>
+
+                                <script src="https://web3forms.com/client/script.js" async defer></script>
+                                
+                                <input class="contact-buttom-kontakt.html" type="submit" value="Kontakta oss"/>
+                              
                             </form>
                         </div>
-                       <!-- Call to action button, SUBMIT -->
-                        <div class="button contact-form-button-2">
-                            <button type="submit" form="contact-form" id="button-gallery">Skicka förfrågan</button>
-                        </div>
+                       <!-- Ta inte bort denna div, jag lyckades inte sätta padding på formuläret så jag tattar löste det. :)  -->
+                        <div class="button contact-form-button-2"></div>
                 </section>
             </div>
         </div>
