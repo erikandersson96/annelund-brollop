@@ -69,7 +69,7 @@ body::-webkit-scrollbar {
 
 .center-2 {
     margin: auto;
-    width: 30%;
+    width: 35%;
     border: 3px solid #000000;
     padding: 10px;
     background-color: #fef5e9;
@@ -443,6 +443,12 @@ textarea {
     }
 }
 
+@media (max-width: 995px) {
+    .center-2 {
+        width: 50%;
+    }
+}
+
 @media (max-width: 820px) {
     .h-captcha {
         transform:scale(0.67);
@@ -467,6 +473,14 @@ textarea {
 
     .two-skiers {
         min-height: 550px;
+    }
+
+    .center-2 {
+        width: 75%;
+    }
+
+    .section-title-festlokal {
+        font-size: 40px;
     }
 }
 
@@ -510,6 +524,10 @@ textarea {
         transform-origin:0 0;
         padding-top: 10px;
     }
+
+    .center-2 {
+        width: 85%;
+    }
 }
 
 @media (max-width: 530px) {
@@ -537,6 +555,10 @@ textarea {
         transform:scale(0.60);
         transform-origin:0 0;
         padding-top: 10px;
+    }
+
+    .center-2 {
+        width: 95%;
     }
 }
 
